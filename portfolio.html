@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PORTFOLIO</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900" style="font-family: 'Roboto', sans-serif;">
+
+    <div class="flex justify-center items-center min-h-screen">
+        <div class="flex w-full max-w-5xl"> 
+            <div class="w-1/2">
+                <img src="assets/C1E6F6AC-8BCA-4AB4-888F-61A99A9F2C7B.JPEG" alt="Anna" class="object-cover w-full h-full">
+            </div>
+
+            <div class="w-1/2 bg-gray-200 flex flex-col justify-center items-center relative"> 
+                <div class="text-center">
+                    <h1 class="text-3xl text-gray-700 fade-in-name" style="font-family: 'Roboto', sans-serif;">
+                        <span class="font-bold">ANNA</span> <span class="font-thin">DÖHMERS</span>
+                    </h1>
+                    <nav class="space-y-0 text-base text-gray-600 mt-0"> 
+                        <a href="#about" class="block font-thin hover:text-gray-900">about</a>
+                        <a href="#work" class="block font-thin hover:text-gray-900">work</a>
+                    </nav>
+                </div>
+
+                <div class="absolute bottom-4 right-4">
+                    <a href="#contact" class="text-gray-600 hover:text-gray-900">contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="about" class="py-16 bg-white">
+        <div class="flex flex-col justify-center items-center text-center">
+            <h2 class="text-3xl font-bold mb-6">about</h2>
+            <p class="max-w-lg text-gray-700">
+                I'm a freelance front-end web developer with a strong artistic background, bringing a unique blend of creativity and technical expertise to every project. 
+                With years of experience in both design and project management, I know how to take ideas from concept to completion, ensuring seamless execution from the first sketch to the final product. 
+                My diverse skill set allows me to work efficiently across the full development process, delivering functional, aesthetically pleasing websites that align with both user experience and business goals.
+            </p>
+        </div>
+    </section>
+
+    <section id="work" class="py-10 bg-white">
+        <div class="container mx-auto"><h2 class="text-3xl font-semibold text-center">work</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div class="bg-white p-6 flex flex-col items-center text-center">
+                    <img src="assets/DD LOGO gray.png" alt="Project 1" class="mb-3 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-2">Coming project</h3>
+                    <p class="text-gray-600">Stay tuned for my coming projects</p>
+                </div>
+                <div class="bg-white p-6 flex flex-col items-center text-center">
+                    <img src="assets/DD LOGO gray.png" alt="Project 2" class="mb-3 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-2">Coming project</h3>
+                    <p class="text-gray-600">Stay tuned for my coming projects</p>
+                </div>
+                <div class="bg-white p-6 flex flex-col items-center text-center">
+                    <img src="assets/DD LOGO gray.png" alt="Project 3" class="mb-3 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-2">Coming Project</h3>
+                    <p class="text-gray-600">Stay tuned for my coming projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-gray-100 text-gray-900 py-8 mt-10">
+        <div class="text-center">
+            <p class="text-sm footer-text">ANNA DÖHMERS</p>
+            <p class="text-sm footer-text">Email: <a href="mailto:anna.dohmers@gmail.com">anna.dohmers@gmail.com</a></p>
+            <p class="text-sm footer-text">Phone: <a href="tel:+46704066244">+46704066244</a></p>
+            <div class="mt-4 flex justify-center space-x-4">
+                <div class="flex items-center space-x-2">
+                    <i class="fa-brands fa-instagram"></i>
+                    <a href="#">Instagram</a>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <a href="#">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
